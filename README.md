@@ -55,7 +55,9 @@ In this section, I'll list any sources I use in creating these examples.
 For now, there are two:
 
   - Grokking Algorithms, Aditya Y. Bhargava, Manning
+    - This is the main source for this repo
   - Introduction to Algorithms, 4th Ed,  Thomas H. Cormen & Charles E. Leiserson, MIT Press
+    - Secondary source, used where the first has no implementation or if this one contains a better one.
 
 
 ## Comments:
