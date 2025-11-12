@@ -10,25 +10,17 @@ This repository largely serves two purposes: to grow and showcase my understandi
 I'm a self-taught developer and, as such, have no degree in Computer Science.
 Although I have now worked as a software engineer for a few years, this may put me at a disadvantage compared to my peers.
 The solution is to learn and show my understanding of the subject and the easiest way to do that is through uploading example code.
-This repository is, first and foremost, a place to keep track of my progress for both myself anyone inclined to take a look.
+This repository is, first and foremost, a place to keep track of my progress for both myself and anyone inclined to take a look.
 
-Right now, I primarily develop in C++; this is, where I have the most experience.
-However, C++ is a very large language (some might say *too* large)* and I'd like to explore as much of it as I possibly can.
-This is also true of other languages I've used in the past, including Python and C\#, and languages I'm very interested in learning (mostly Rust).
-The best way to learn a new programming language is to use it in a project; so I'll be implementing DSAs in any language that I'm interested in.
-
-There is a third, potential reason: One day, I'd like to put these up as reference materials for an informal course.
-I'm currently working towards creating my own personal website, on which I'm planning to include a blog and any of my personal projects.
-My hope is that I'll eventually be able to write up the knowledge I've gained for others to learn from; either as a course, or as simple reference sheets.
-These, of course, already exist in multitudes, so the aim is not to become a hub for learning.
-Rather, I like the idea of someone being able to use my website as a reference someday.
+Further, I'm also of the opinion that a great way of learning the features and pitfalls of a new language is to re-create a decently-sized project into the said language.
+Although it's not, strictly speaking, the best project to re-implement data structures and algorithms in a new language, it's not a bad start.
 
 ## Structure
 
 Each data structure and algorithm will have it's own folder containing subfolders for each language with an implementation.
 The top level folder of each algorithm will have an explanation, with some examples written in pseudocode.
 Any diagrams/figures used in the explanation will be in their own folder.
-So, for an algorithm I've implemented in Python and C++, the structuer will look something like this:
+So, for an algorithm I've implemented in Python and C++, the structure will look something like this:
 
   ```
   Main folder
@@ -43,6 +35,8 @@ So, for an algorithm I've implemented in Python and C++, the structuer will look
     |_ README.md
   ```
 
+The python examples are not particurly pythonic.
+
 ## Featured Languages
 
 Initially, I'll be writing these examples in Python, then porting them to C++.
@@ -51,13 +45,21 @@ C++ also offers the opportunity to dive into some template metaprogamming, in ad
 
 ## Sources
 
-In this section, I'll list any sources I use in creating these examples.
-For now, there are two:
+  - Grokking Algorithms [Aditya Y. Bhargava], Manning Press
+  - Data Structures and Algorithms with Python (2nd Ed.) [Kent D. Lee, Steve Hubbard], Springer Texts
 
-  - Grokking Algorithms, Aditya Y. Bhargava, Manning
-    - This is the main source for this repo
-  - Introduction to Algorithms, 4th Ed,  Thomas H. Cormen & Charles E. Leiserson, MIT Press
-    - Secondary source, used where the first has no implementation or if this one contains a better one.
+While in a previous iteration of this repository used Grokking Algorithms as the main source, this turned out to be a slight mistake.
+As the title implies, the focus of the book was on Algorithms, not data structures.
+This becomes slightly useless for learning data structures when the implicit assumption is that you already have data structures on which to work.
+
+I'd originally planned on using Introduction to Algorithms to supplement my understanding, I quickly found that I
+
+  - Don't like using PDFs of books
+  - Don't like spending £100+ on a single book
+  - That the book contains so many algorithms as to be intimidating.
+
+Eventually, I stumbled across Kent Lee and Steve Hubbard's book in a shop.
+This seems like a happy medium, so here we ware.
 
 
 ## Comments:
